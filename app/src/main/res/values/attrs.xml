@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ErrorView">
+        <attr name="title" format="string" />
+        <attr name="buttonTitle" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="PasscodeEditText">
+        <attr name="charCount" format="integer" />
+        <attr name="charSpaceSize" format="dimension" />
+        <attr name="charFilledColor" format="color" />
+        <attr name="charEmptyBorderColor" format="color" />
+    </declare-styleable>
+</resources>

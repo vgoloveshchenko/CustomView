@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/settings">
+
+    <fragment
+        android:id="@+id/settings"
+        android:name="com.example.customview.fragment.SettingsFragment"
+        tools:layout="@layout/fragment_settings">
+
+        <action
+            android:id="@+id/to_night_mode"
+            app:destination="@id/night_mode"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/to_language"
+            app:destination="@id/language"
+            app:enterAnim="@anim/slide_in"
+            app:exitAnim="@anim/wait_anim"
+            app:popEnterAnim="@anim/wait_anim"
+            app:popExitAnim="@anim/slide_out" />
+        <action
+            android:id="@+id/to_animation"
+            app:destination="@id/animation"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/to_custom_view"
+            app:destination="@id/custom_view"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+        <action
+            android:id="@+id/to_insets"
+            app:destination="@id/insets"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/night_mode"
+        android:name="com.example.customview.fragment.NightModeFragment"
+        tools:layout="@layout/fragment_night_mode" />
+
+    <fragment
+        android:id="@+id/language"
+        android:name="com.example.customview.fragment.LanguageFragment"
+        tools:layout="@layout/fragment_language" />
+
+    <fragment
+        android:id="@+id/animation"
+        android:name="com.example.customview.fragment.AnimationFragment"
+        tools:layout="@layout/fragment_animation" />
+
+    <fragment
+        android:id="@+id/custom_view"
+        android:name="com.example.customview.fragment.CustomViewFragment"
+        tools:layout="@layout/fragment_custom_view" />
+
+    <fragment
+        android:id="@+id/insets"
+        android:name="com.example.customview.fragment.InsetsFragment"
+        tools:layout="@layout/fragment_insets" />
+</navigation>

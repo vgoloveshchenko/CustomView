@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">CustomView</string>
+
+    // Settings screen
+    <string name="settings_title">Settings</string>
+    <string name="settings_button_night_mode">Dark theme</string>
+    <string name="settings_button_language">Language</string>
+    <string name="settings_button_animation">Animation</string>
+    <string name="settings_button_custom_view" translatable="false">Custom view</string>
+    <string name="settings_button_insets" translatable="false">Insets</string>
+
+    // Dark mode screen
+    <string name="night_mode_title">Dark theme</string>
+    <string name="night_mode_button_dark">Dark mode</string>
+    <string name="night_mode_button_light">Light mode</string>
+    <string name="night_mode_button_default">System default mode</string>
+
+    // Language screen
+    <string name="language_title">Language</string>
+    <string name="language_button_en">English</string>
+    <string name="language_button_ru">Russian</string>
+</resources>

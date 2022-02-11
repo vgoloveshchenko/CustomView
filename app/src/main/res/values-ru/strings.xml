@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // Settings screen
+    <string name="settings_title">Настройки</string>
+    <string name="settings_button_night_mode">Тёманя тема</string>
+    <string name="settings_button_language">Язык</string>
+    <string name="settings_button_animation">Анимация</string>
+
+    // Dark mode screen
+    <string name="night_mode_title">Тёмная тема</string>
+    <string name="night_mode_button_dark">Ночная</string>
+    <string name="night_mode_button_light">Дневная</string>
+    <string name="night_mode_button_default">Системная</string>
+
+    // Language screen
+    <string name="language_title">Язык</string>
+    <string name="language_button_en">Английский</string>
+    <string name="language_button_ru">Русский</string>
+</resources>
